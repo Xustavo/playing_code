@@ -1,2 +1,5 @@
-# playing_code
-repo for leet codes, beecrowd and test stuff
+# Description
+    Repo for training code for interview challenges
+
+## Goal
+    Initially the goal is to make at least 1 challenge per day
