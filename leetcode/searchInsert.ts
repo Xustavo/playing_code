@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/search-insert-position/description/
+
 function searchInsert(nums: number[], target: number) {
     for(let i = 0; i < nums.length; i++){
         if(nums[i] === target){

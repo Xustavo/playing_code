@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/description/
+
 function missingInteger(nums: number[]): number {
     let i = 1;
     while (i < nums.length && nums[i] === nums[i - 1] + 1) {

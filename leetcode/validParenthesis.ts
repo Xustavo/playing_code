@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/valid-parentheses/description/
+
 function isValid(s: string): boolean {
     const brackets: string[] = [];
     const pairs: { [key: string]: string } = {

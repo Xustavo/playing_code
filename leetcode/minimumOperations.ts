@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/description/
+
 function minimumOperations(nums: number[]): number {
     let operations = 0;
     let i = 0;

@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/merge-two-sorted-lists/description/
+
 function mergeTwoLists(list1: ListNode | null, list2: ListNode | null): ListNode | null {
     let dummy = new ListNode(-1);
     let current = dummy;
