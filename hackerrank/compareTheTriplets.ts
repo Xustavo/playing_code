@@ -1,3 +1,5 @@
+// http://hackerrank.com/challenges/compare-the-triplets/problem
+
 'use strict';
 
 import { WriteStream, createWriteStream } from "fs";
