@@ -1,4 +1,4 @@
-// https://www.hackerrank.com/challenges/simple-array-sum/problem
+// https://www.hackerrank.com/challenges/a-very-big-sum/problem
 
 'use strict';
 
@@ -26,23 +26,21 @@ function readLine(): string {
 }
 
 /*
- * Complete the 'simpleArraySum' function below.
+ * Complete the 'aVeryBigSum' function below.
  *
- * The function is expected to return an INTEGER.
- * The function accepts INTEGER_ARRAY ar as parameter.
+ * The function is expected to return a LONG_INTEGER.
+ * The function accepts LONG_INTEGER_ARRAY ar as parameter.
  */
 
-function simpleArraySum(ar: number[]): number {
-    
-    let sum:number = 0;
-    
-    for(let i = 0; i < ar.length; i++)
+function aVeryBigSum(ar: number[]): number {
+    // Write your code here
+    let sum: number = 0;
+    for(var num of ar)
     {
-        sum += ar[i];
+        sum += num;
     }
 
     return sum;
-
 }
 
 function main() {
@@ -52,7 +50,7 @@ function main() {
 
     const ar: number[] = readLine().replace(/\s+$/g, '').split(' ').map(arTemp => parseInt(arTemp, 10));
 
-    const result: number = simpleArraySum(ar);
+    const result: number = aVeryBigSum(ar);
 
     ws.write(result + '\n');
 

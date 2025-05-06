@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/add-binary/description/
+
 function addBinary(a: string, b: string): string {
     let i = a.length - 1;
     let j = b.length - 1;
